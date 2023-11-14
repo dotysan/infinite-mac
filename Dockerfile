@@ -1,6 +1,6 @@
 FROM ubuntu:22.04
 
-RUN apt update && apt install -y \
+RUN apt-get update && apt-get install --yes \
     python3 cmake git build-essential \
     autoconf libsdl1.2-dev libsdl2-dev wget lzip curl
 
